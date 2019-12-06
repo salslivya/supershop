@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Supershop - Ботинки ннада?</title>
+
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- Шапка - лого, навигация по сайту, коробочка с поиском -->
+    <!-- Блок - отдельный элемент на странице по БЭМ, может переиспользоваться -->
+    <header class="header">
+        <!-- Элемент - составляющая часть блоков, отдельно от блока не используются -->
+        <!-- Текст внутри пишется как есть. Supershop -> SUPERSHOP происходит при помощи CSS.-->
+        <h1 class="header__logo">Supershop</h1>
+        <nav class="header__navigation navigation">
+            <!-- Модификатор - состояние элемента, определяющее его поведение в определённых ситуациях,
+            например в случае активности ссылки -->
+            <a href="#" class="navigation__link navigation__link--active">Главная</a>
+            <a href="#" class="navigation__link">Каталог</a>
+            <a href="#" class="navigation__link">О магазине</a>
+            <a href="#" class="navigation__link">Новости</a>
+        </nav>
+        <form class="search-box">
+            <input class="search-box__input" type="text" placeholder="Я ищу...">
+            <button class="search-box__button">Найти</button>
+        </form>
+    </header>
+    <section class="banner">
+        <div class="banner__heading heading">
+            <h2 class="heading__secondary">Твоя жизнь уникальна</h2>
+            <h3 class="heading__primary">Будь оригинальным</h3>
+            <h4 class="heading__small">
+                Не следует, однако забывать, что реализация намеченных плановых заданий в значительной степени
+                 обуславливает создание системы обучения кадров, соответствует насущным потребностям.
+            </h4>
+        </div>
+        <button class="heading__button">Перейти в каталог</button>
+    </section>
+    <section class="banner">
+        <div class="banner__about">
+            <h2 class="about__primary">Классный текст о нашем супермагазине</h2>
+            <h3 class="about__secondary">Не следует, однако забывать, что реализация намеченных плановых заданий в значительной степени обуславливает создание
+        системы обучения кадров, соответствует насущным потребностям. Таким образом начало повседневной работы по формированию
+        позиции позволяет выполнять важные задания по разработке соответствующий условий активизации.</h3>
+    </section>    
+    <section class="banner">
+            <div class="banner__new">
+            <h2 class="new__primary">Новые товары в нашем магазине</h2>
+            <div>
+                    <img src="https://sun9-49.userapi.com/c855020/v855020642/171113/aK78QOLtxe0.jpg" width="200" height="200" alt="f">
+                    <p>Классные ботиночки</p>
+                    <p>1000 $</p>
+            </div>
+            <div>
+                    <img src="https://sun9-49.userapi.com/c855020/v855020642/171113/aK78QOLtxe0.jpg" width="200" height="200" alt="f">
+                    <p>Классные ботиночки</p>
+                    <p>1000 $</p>
+            </div>
+            <div>
+                    <img src="https://sun9-49.userapi.com/c855020/v855020642/171113/aK78QOLtxe0.jpg" width="200" height="200" alt="f">
+                    <p>Классные ботиночки</p>
+                    <p>1000 $</p>
+            </div>
+            </div>
+            <div class="popular_product">
+                <div>
+                    <img src="" alt="">
+                    <p>Классные ботиночки</p>
+                    <p>1000 $</p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>Классные ботиночки</p>
+                    <p>1000 $</p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>Классные ботиночки</p>
+                    <p>1000 $</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner__feedback">
+            <h2 class="feedback__secondary">Если у вас есть вопросы, Наши менеджеры рады вам помочь!</h2>
+            <h4 class="feedback__small">
+                С другой стороны новая модель организационной деятельности требуют от нас анализа существенных финансовых и
+                административных условий. Идейные соображения высшего порядка, а также начало повседневной работы по формированию
+                позиции обеспечивает широкому кругу (специалистов) участие в формировании системы обучения кадров, соответствует
+                насущным потребностям. Равным образом укрепление и развитие структуры влечет за собой процесс внедрения и модернизации
+                соответствующий условий активизации.
+            </h4>
+        <div>
+            <label for="client_name">Имя</label>
+            <input type="text" id="client_name" placeholder="Введите имя">
+        </div>
+        <div>
+            <label for="client_email">Email</label>
+            <input type="text" id="client_email" placeholder="Email">
+        </div>
+        <div>
+         <button class="feedback__button">Отправить</button>
+         <form action="#" method="POST">
+        </div>
+    </section>
+    <footer class="footer">
+        <h1 class="footer__logo">2019@Supershop</h1>
+    </footer>    
+</body>
+</html>
